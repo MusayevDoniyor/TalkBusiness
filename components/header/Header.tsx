@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex flex-col md:flex-row justify-between py-5 px-4 md:px-16 items-center font-semibold shadow-md">
+    <header className="sticky top-0 z-50 flex flex-col md:flex-row justify-between py-5 px-4 md:px-16 items-center font-semibold shadow-md bg-white">
       <div className="mb-4 md:mb-0">
         <Link href="/">
           <Image src={logo} alt="Site logo" width={200} height={50} />
@@ -24,7 +24,7 @@ const Header = () => {
             </li>
 
             <li className="hover:text-[#6610F2] hover:text-xl hover:font-bold transition-all">
-              <Link href="/services">Services</Link>
+              <Link href="#services">Services</Link>
             </li>
 
             <li className="hover:text-[#6610F2] hover:text-xl hover:font-bold transition-all">
@@ -33,7 +33,7 @@ const Header = () => {
           </ul>
         </nav>
 
-        <button className="border-2 border-[#6610F2] text-[#6610F2] rounded-3xl py-2 px-5 md:py-3 md:px-8 mt-4 md:mt-0">
+        <button className="border-2 border-[#6610F2] text-[#6610F2] rounded-3xl py-2 px-5 md:py-3 md:px-8 mt-4 md:mt-0 hover:bg-[#6610F2] hover:text-white transition-all">
           Contact Us
         </button>
       </div>

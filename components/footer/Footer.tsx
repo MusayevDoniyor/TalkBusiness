@@ -39,7 +39,7 @@ const Footer = () => {
               className="bg-transparent border-none text-white placeholder-white focus:outline-none flex-1 py-2 px-4 rounded-md"
             />
 
-            <button className="mt-3 md:mt-0 md:ml-28 text-[#FFFFFF] transition-all hover:border py-2 px-6 rounded-md">
+            <button className="mt-3 md:mt-0 md:ml-28 text-[#FFFFFF] transition-all hover:outline py-2 px-6 rounded-md">
               Submit
             </button>
           </form>
